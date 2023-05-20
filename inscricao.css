@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 280px;
+    background-color: #F2F2F2;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px;
+    color: #333333;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    background-color: #1C9BEA;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: cool;
+    letter-spacing: 1px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #116092;
+  }
+  
+  .create {
+    text-align: center;
+    font-family: cool;
+    letter-spacing: 3px;
+  }
+  
+  .inscreva_container {
+    background-color: white;
+    width: 300px;
+    padding: 50px;
+    margin: 0 auto;
+  }
+  
+  .form_2 {
+    width: 100%;
+    font-family: cool;
+    text-decoration: none;
+  }
+  
+  .form_2 form p {
+    margin: 10px 0;
+  }
+  
+  .form_2 form button[type="submit"] {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .form_2 {
+      font-size: 12px;
+    }
+  }
+  
+  @font-face {
+    font-family: cool;
+    src: url(./fontes/coolvetica\ rg.otf);
+  }
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .password-input input[type="password"] {
+    width: 280px;
+    background-color: #F2F2F2;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px;
+    color: #333333;
+    font-size: 14px;
+  }
+  
+  .password-input button {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    background: url('./img/aparecer.png') no-repeat center;
+    background-size: contain;
+    border: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .password-input button.show-password {
+    background-image: url('./img/ocultar.png'); 
+  }
+  
+  a[href="./index.html"] {
+    color: #1C9BEA;
+    text-decoration: none;
+  }
+  
