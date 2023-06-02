@@ -38,6 +38,7 @@ img {
 
 .inscreva{
     float: left;
+    font-family: cool;
 }
 
 .logins{
@@ -137,6 +138,8 @@ input[type="text"] {
       overflow: hidden;
 
     }
+
+    body { overflow: hidden; }
   
     .login-container {
       flex-direction: column;
@@ -146,7 +149,6 @@ input[type="text"] {
   
     .login {
       padding: 20px;
-      border-radius: 10px;
       padding-left: 30px;
       padding-right: 30px;
 
